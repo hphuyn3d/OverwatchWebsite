@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML, CSS, Overwatch, Games, ps4, xboxone">
+    <meta name="description" content="Website for all Overwatch fans and potential Overwatch Fans">
+    <meta name="author" content="Hung Huynh">
+    <title>Daily Overwatch</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/animate.css">
+    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/main.css"> </head>
+
+<body id="home">
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button><a class="navbar-brand" id="home-nav" href="index.html">Overwatch</a> </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="heroes.html">Heroes</a></li>
+                        <li><a href="game-modes.html">Game Modes</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                       <li><a href="https://playoverwatch.com/en-us/buy/" target="_blank">Buy Now</a>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <!-- End Header -->
+    <!------------------------------- Jumbotron start --------------------------------->
+    <div class="jumbotron" id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="typewriter">
+                        <h1 id="center">Welcome To Overwatch</h1> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------- Jumbotron end --------------------------------->
+    <div class="container">
+        <section class="page-header" id="about">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <h2>What is Overwatch? <small>A kick ass game</small></h2>
+                    <p>Overwatch is a team-based multiplayer first-person shooter video game developed and published by Blizzard Entertainment. It was released in May 2016 for Microsoft Windows, PlayStation 4, and Xbox One. Overwatch puts players into two teams of six, with each player selecting one of several pre-defined hero characters with unique movement, attributes, and abilities; these heroes are divided into four classes: Offense, Defense, Tank and Support. Players on a team work together to secure and defend control points on a map and/or escort a payload across the map in a limited amount of time. Players gain cosmetic rewards that do not affect gameplay, such as character skins and victory poses, as they continue to play in matches. The game was launched with casual play, while Blizzard added competitive ranked play about a month after launch. Additionally, Blizzard has developed and added new characters, maps, and game modes post-release, while stating that all Overwatch updates will remain free, with the only additional cost to players being microtransactions to earn additional cosmetic rewards.</p>
+                </div>
+                <!-- End Div -->
+                <div class="col-md-4 wow rotateIn"> <img src="images/game-cover.jpg"> </div>
+            </div>
+        </section>
+    </div>
+    <div class="container" id="consoles">
+        <section class="page-header" id="systems">
+            <h2>Systems That Support Overwatch</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>PC</h3> <img class="wow slideInLeft" src="images/windows.png"> </div>
+                <div class="col-md-4">
+                    <h3>PS4</h3> <img class="wow bounceInDown" data-wow-delay="1s" src="images/ps4-logo.png"> </div>
+                <div class="col-md-4">
+                    <h3>Xbox One</h3> <img class="wow fadeInRight" data-wow-delay="2s" src="images/xboxone.png"> </div>
+            </div>
+        </section>
+        <footer>
+            <section class="footer-section">
+                <div class="text-center center-block">
+                    <br /> <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a> <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a> <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a> <a href="mailto:hunghuynh23@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                    <hr/>
+                    <h4>&copy; Designed By Hung Huynh 2017</h4> </div>
+            </section>
+        </footer>
+    </div>
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script>
+        $(function () {
+            new WOW().init();
+        });
+    </script>
+</body>
+
+</html>
